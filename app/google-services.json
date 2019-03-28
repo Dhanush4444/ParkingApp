@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "931139541498",
+    "firebase_url": "https://autowiper-49401.firebaseio.com",
+    "project_id": "autowiper-49401",
+    "storage_bucket": "autowiper-49401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931139541498:android:ed8a62f8671b1ad7",
+        "android_client_info": {
+          "package_name": "com.example.joker.parkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931139541498-thpvoq70m8ot1nnad8584l859c52f2v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgUgy85xZNqlHQXNN2UK3d0B5Hirt3U4g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
