@@ -9,6 +9,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.*;
 
+import java.util.Objects;
+
 public class MainActivity extends AppCompatActivity {
     DatabaseReference mDatabase;
     FirebaseAuth mAuth;
@@ -32,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         mDatabase.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String status1 = dataSnapshot.child("Parking").child("1").child("Status").getValue().toString();
-                String status2 = dataSnapshot.child("Parking").child("2").child("Status").getValue().toString();
-                String status3 = dataSnapshot.child("Parking").child("3").child("Status").getValue().toString();
-                String status4 = dataSnapshot.child("Parking").child("4").child("Status").getValue().toString();
+                String status1 = Objects.requireNonNull(dataSnapshot.child("Parking").child("1").child("Status").getValue()).toString();
+                String status2 = Objects.requireNonNull(dataSnapshot.child("Parking").child("2").child("Status").getValue()).toString();
+                String status3 = Objects.requireNonNull(dataSnapshot.child("Parking").child("3").child("Status").getValue()).toString();
+                String status4 = Objects.requireNonNull(dataSnapshot.child("Parking").child("4").child("Status").getValue()).toString();
 
                 if (!status1.equals("EMPTY"))
                     but1.setBackgroundColor(getResources().getColor(R.color.red));
