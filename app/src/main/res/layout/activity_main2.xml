@@ -12,6 +12,10 @@
                   android:layout_alignParentTop="true">
 
 
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+                android:id="@+id/imageView"/>
         <EditText
                 android:id="@+id/userId"
                 android:layout_width="match_parent"
