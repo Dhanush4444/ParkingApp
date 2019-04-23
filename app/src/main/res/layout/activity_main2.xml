@@ -14,7 +14,7 @@
 
         <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+                android:layout_height="116dp" app:srcCompat="@drawable/sidda"
                 android:id="@+id/imageView"/>
         <EditText
                 android:id="@+id/userId"
@@ -38,7 +38,8 @@
 
         <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:text="Login"
-        android:id="@+id/loginBut"/>
+        android:id="@+id/loginBut"
+        android:layout_marginLeft="145dp"/>
 
     </LinearLayout>
 

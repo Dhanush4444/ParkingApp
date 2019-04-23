@@ -51,5 +51,10 @@
 
     </LinearLayout>
     </LinearLayout>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="106dp" app:srcCompat="@drawable/sidda"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" android:id="@+id/imageView2"/>
 
 </RelativeLayout>
